@@ -1,0 +1,26 @@
+server:
+  env: "DEV"
+  port: ":8081"
+
+database:
+  user: "han_user"
+  password: "S3cret"
+  schema: han
+
+docker:
+  container:
+    name: "android"
+    image: "thyrlian/android-sdk-vnc"
+    hostIp: "0.0.0.0"
+    ports:
+      - "5901:5901"
+      - "2222:22"
+      - "5037:5037"
+    volumes:
+      - "/home/usr/go/src/hannibal/sdk::/opt/android-sdk"
+    commands:
+      - 'sdkmanager "platform-tools" "platforms;android-24" "emulator"'
+      - 'sdkmanager "system-images;android-24;default;armeabi-v7a"'
+      - 'echo no | avdmanager create avd -n emuTest -k "system-images;android-24;default;armeabi-v7a"'
+      - 'emulator -avd emuTest -noaudio -no-boot-anim -verbose'
+    workdir: "/opt/android-sdk/"

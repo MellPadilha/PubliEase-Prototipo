@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:12.19-alpine3.19
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./.docker/database:/var/lib/postgresql/data
+    environment:
+        - POSTGRES_PASSWORD=S3cret
+        - POSTGRES_USER=han_user
+        - POSTGRES_DB=han
