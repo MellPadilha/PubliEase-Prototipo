@@ -36,7 +36,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 5. **Instalação dos Pacotes do Projeto "POC-publiease"**:
    - Acesse o diretório do projeto "POC-publiease":
      ```bash
-     cd POC-publiease
+     cd ./POC-publiease
      ```
    - Execute o comando para instalar os pacotes:
      ```bash
@@ -46,7 +46,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 6. **Iniciar o Projeto "kratos-api"**:
    - Acesse o diretório do projeto "kratos-api":
      ```bash
-     cd ../api_kratos
+     cd ./api_kratos
      ```
    - Execute o comando para baixar as dependências e iniciar o projeto:
      ```bash
