@@ -1,0 +1,10 @@
+[api]
+port = "9010"
+
+[hannibal]
+address = "http://localhost:8081"
+route = "/api/v1/form/"
+
+[eurobo]
+address = "http://localhost:7024"
+route = "/motivo"
