@@ -101,12 +101,6 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
       ```
     - Execute o comando para instalar as dependências:
       ```bash
-      
-      PARA WINDOWS: 
-          python -m venv sklearn-env
-          sklearn-env\Scripts\activate
-          pip install -r requirements.txt
-      PARA LINUX:
           python3 -m venv sklearn-env
           source sklearn-env/bin/activate 
           pip3 install -r requirements.txt
