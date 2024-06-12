@@ -84,13 +84,13 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
      ```
    - Anote o resultado e edite o arquivo `config.yaml` na linha 20, substituindo pelo caminho anotado e adicionando o texto "/sdk:/opt/android-sdk". O resultado deve ser parecido com:
      ```
-     "/Users/usr/hannibal/sdk:/opt/android-sdk" -> "<resultado do pwd>/hannibal_api/sdk::/opt/android-sdk"
+     "/Users/usr/hannibal/sdk::/opt/android-sdk" -> "<resultado do pwd>/hannibal_api/sdk::/opt/android-sdk"
      ```
 
 9. **Iniciar o Projeto "hannibal"**:
    - Execute o comando para baixar as dependências e iniciar o projeto:
      ```bash
-     go run cmd/hannibal/*.go&
+     go run cmd/hannibal/*.go
      ```
 
 10. **Instalação de Dependências da IA**:
