@@ -145,3 +145,4 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 ## Conclusão
 
 Siga todos os passos cuidadosamente para garantir que a configuração e validação do aplicativo sejam realizadas com sucesso. Se ocorrer algum problema, verifique os logs e os detalhes das configurações para identificar e corrigir possíveis erros.
+Caso desejem ver os repositorios originais podemos liberar os acessos, pois estão como privado.
