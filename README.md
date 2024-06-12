@@ -135,7 +135,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
     - EXEMPLO DE DADOS PARA TESTE:
         - Nome: Twitter ou X
         - Package: com.twitter.android
-        - Apk: estara na pasta de /dadosTeste (está nomeado como X.apk)
+        - Apk:Disponibilizamos alguns apks para download [aqui](https://drive.google.com/drive/folders/1cmjrM92v0BlIt-jkCEy_wr26WDefL9KW?usp=sharing) (O twitter se chama X.apk)
         - Motivo valido: Recomendar atividades de lazer ao usuários ou personalizar recomendação de conteúdo com base na localização
         - Motivo invalido: Roubar dados do usuarios ou Porque o aplicativo é meu
 
