@@ -61,6 +61,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
    - Execute o comando para preparar o ambiente do emulador:
      ```bash
      docker pull thyrlian/android-sdk
+     docker run -it --rm -v $(pwd)/sdk:/sdk thyrlian/android-sdk bash -c 'cp -a $ANDROID_HOME/. /sdk
      ```
 
 8. **Configurar Permissões e Caminho do SDK**:
