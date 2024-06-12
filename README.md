@@ -18,7 +18,9 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 - **Aplicativo Android (APK)**: Deve estar disponível para ser testado no emulador. O APK deve ser compatível com o Android 7.0 ou superior.
 - **Nome e Package do Aplicativo**: O Package é fundamental para que o emulador consiga interagir com o software enviado para validação.
 
+
 ## Procedimento para Validação
+### ⚠️⚠️ CADA PROJETO DEVE RODAR EM UM TERMINAL EXCLUSIVO ⚠️⚠️
 
 1. **Realizar Download do Código Fonte**:
    - Faça o download do código fonte do projeto.
