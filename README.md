@@ -7,7 +7,8 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 
 ## Requisistos
 
-- **Docker**: Deve estar previamente configurado e conectado ao servidor Docker Hub.
+- **WSL**: Caso seja executado em ambiente Windows, utilizar usando terminal Linux fornecido pelo WSL.
+- **Docker**: Deve estar previamente configurado, conectado ao servidor Docker Hub e ter sido iniciado.
 - **Go**: Deve estar incluído nas variáveis de ambiente para que seu acesso seja permitido por todo o ambiente.
 - **Python**: Deve estar incluído nas variáveis de ambiente para que seu acesso seja permitido por todo o ambiente.
 - **Biblioteca "pip"**: Pertencente ao Python, deve estar instalada.
@@ -52,7 +53,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
      ```
    - Execute o comando para baixar as dependências e iniciar o projeto:
      ```bash
-     go run cmd/*.go&
+          go run ./cmd/*.go
      ```
 
 7. **Preparar o Ambiente do Emulador Android no Projeto "hannibal"**:
