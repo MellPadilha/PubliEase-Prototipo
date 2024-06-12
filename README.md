@@ -52,7 +52,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
      ```
    - Execute o comando para baixar as dependências e iniciar o projeto:
      ```bash
-     go run cmd/*.go
+     go run cmd/*.go&
      ```
 
 7. **Preparar o Ambiente do Emulador Android no Projeto "hannibal"**:
@@ -90,7 +90,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 9. **Iniciar o Projeto "hannibal"**:
    - Execute o comando para baixar as dependências e iniciar o projeto:
      ```bash
-     go run cmd/hannibal/*.go
+     go run cmd/hannibal/*.go&
      ```
 
 10. **Instalação de Dependências da IA**:
