@@ -84,7 +84,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
      ```
    - Anote o resultado e edite o arquivo `config.yaml` na linha 20, substituindo pelo caminho anotado e adicionando o texto "/sdk:/opt/android-sdk". O resultado deve ser parecido com:
      ```
-     /home/user/hannibal_api/sdk:/opt/android-sdk
+     /home/user/hannibal_api/sdk::/opt/android-sdk
      ```
 
 9. **Iniciar o Projeto "hannibal"**:
