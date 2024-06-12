@@ -21,7 +21,7 @@ Este documento descreve os passos necessários para configurar o ambiente e vali
 
 
 ## Procedimento para Validação
-### ⚠️⚠️ CADA PROJETO DEVE RODAR EM UM TERMINAL EXCLUSIVO ⚠️⚠️
+### ⚠️⚠️ CADA PROJETO DEVE RODAR EM UM TERMINAL LINUX EXCLUSIVO ⚠️⚠️
 
 1. **Realizar Download do Código Fonte**:
    - Faça o download do código fonte do projeto.
